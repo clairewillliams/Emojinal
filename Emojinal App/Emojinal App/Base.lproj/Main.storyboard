@@ -22,11 +22,17 @@
                                 <rect key="frame" x="20" y="234" width="374" height="96"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="🥚"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CUH-Yc-bcV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdN-7L-62I">
                                 <rect key="frame" x="20" y="646" width="374" height="96"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="🐥"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k9j-sG-8er"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EggMOJI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ob4-RT-vGz">
                                 <rect key="frame" x="20" y="119" width="374" height="60"/>
@@ -38,6 +44,9 @@
                                 <rect key="frame" x="20" y="440" width="374" height="96"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <state key="normal" title="🐣"/>
+                                <connections>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DTF-dd-RO2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99856886109100318" green="1" blue="0.79036761615806661" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -58,11 +67,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="chickButton" destination="cdN-7L-62I" id="36a-xf-zCy"/>
-                        <outlet property="crackedButton" destination="4F9-Ve-VDt" id="Rtz-tX-T4Z"/>
-                        <outlet property="eggMessage" destination="7Qw-if-jfy" id="pEw-ZD-a7f"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

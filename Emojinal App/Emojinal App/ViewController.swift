@@ -10,17 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var eggMessage: UIButton!
-    
-    @IBOutlet weak var crackedButton: UIButton!
-    
-    @IBOutlet weak var chickButton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+@IBAction func showMessage(sender: UIButton) {
+    //an alert to pop up, show a message and be able to click "ok" to exit
+    let alertController = UIAlertController(title: "Egg", message: "It's okay to feel fried!", preferredStyle: UIAlertController.Style.alert)
+    alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+    present(alertController, animated: true, completion: nil)
 }
-
+}
