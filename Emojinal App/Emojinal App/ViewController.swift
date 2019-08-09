@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     let emojis = ["🥚" : "Egg", "🐣" : "Hatching Egg", "🐥" : "Chick"]
     
-    let customMessages = ["Egg" : ["It's okay to feel fried!", "Don't feel scrambled!"], "Hatching Egg" : ["Feeling a little cracked? Hope you have an eggcellent day ahead of you!", "Hatch into today!"], "Chick" : ["You rock, chick!", "Keep on clucking!"]]
+    let customMessages = ["Egg" : ["It's okay to feel fried!", "Don't feel scrambled!"], "Hatching Egg" : ["Feeling a little cracked? Hope you have an eggcellent day ahead of you!", "Hatch into today!"], "Chick" : ["You rock, chick!", "Keep on clucking chica!"]]
     
     override func viewDidLoad() {
         super.viewDidLoad()
